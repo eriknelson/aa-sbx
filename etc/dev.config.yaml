@@ -1,0 +1,4 @@
+---
+registry:
+  type: "test"
+  url: "http://localhost:1337"

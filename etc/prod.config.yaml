@@ -1,0 +1,4 @@
+---
+registry:
+  type: "rhcc"
+  url: "http://rhcc.redhat.com/api"

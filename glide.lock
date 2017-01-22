@@ -1,0 +1,10 @@
+hash: 600c7b10359a1dfc7619b5230bbd501fa42f0b752e90376331d79e107a8e7c24
+updated: 2017-01-22T16:56:06.831795177-05:00
+imports:
+- name: github.com/jessevdk/go-flags
+  version: 8bc97d602c3bfeb5fc6fc9b5a9c898f245495637
+- name: github.com/pborman/uuid
+  version: a97ce2ca70fa5a848076093f05e639a89ca34d06
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports: []
