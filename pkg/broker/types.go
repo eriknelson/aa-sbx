@@ -1,7 +1,7 @@
 package broker
 
 import (
-	"github.com/pborman/uuid"
+	_ "github.com/pborman/uuid"
 )
 
 type AppSpec struct {
