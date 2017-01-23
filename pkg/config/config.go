@@ -15,7 +15,7 @@ type Config struct {
 	ConfigFile string
 }
 
-func LoadConfig(configFile string) Config {
+func LoadConfig(configFile string) *Config {
 	var err error
 
 	config := Config{
@@ -36,5 +36,5 @@ func LoadConfig(configFile string) Config {
 		panic(err)
 	}
 
-	return config
+	return &config
 }
