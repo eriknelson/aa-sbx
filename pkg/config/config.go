@@ -1,15 +1,17 @@
-package main
+package config
 
 import (
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 )
 
+type RegistryConfig struct {
+	Name string
+	Url  string
+}
+
 type Config struct {
-	Registry struct {
-		Type string
-		Url  string
-	}
+	Registry   RegistryConfig
 	ConfigFile string
 }
 
@@ -20,6 +22,10 @@ func LoadConfig(configFile string) Config {
 		ConfigFile: configFile,
 	}
 
+	// TODO: Confirm it exists
+	// TODO: Run validator
+
+	// Load struct
 	dat, err := ioutil.ReadFile(configFile)
 	if err != nil {
 		panic(err)

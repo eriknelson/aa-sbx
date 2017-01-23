@@ -1,4 +1,4 @@
 ---
 registry:
-  type: "rhcc"
+  name: "rhcc"
   url: "http://rhcc.redhat.com/api"
